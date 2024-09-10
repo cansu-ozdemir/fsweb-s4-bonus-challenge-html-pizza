@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -63,12 +64,14 @@ h1 {
       background-color: #FDC913;
       color: #292929;
       border-radius: 50px;
-      font-size: 7px;
+      font-size: 15px;
       font-family: Barlow;
       font-weight: 700;
-      width: 80px;
-      height: 20px;
+      width: 140px;
+      height: 40px;
       border: none;
+      cursor: pointer;
+      margin-top: 10px;
     }
 
     .listeler {
@@ -77,6 +80,7 @@ h1 {
       height: 7vh;
       display: grid;
       place-items: center;
+      margin-bottom: 50px;
     }
 
     .menu-items {
@@ -94,16 +98,153 @@ h1 {
       margin-right: 8px;
     }
 
+     .frame-40 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 100px;
+     }
+
+    .lezzetus {
+      background-image: url("public\assets\iteration-2\cta\kart-1.png");
+      flex-direction: column;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 30%;
+      gap: 10px;
+      border-radius: 10px;
+      height: 60vh;
+    }
+
+    h3 {
+      font-family: Quattrocento;
+      color: #FFFFFF;
+      font-size: 50px;
+      text-align: left;
+      margin: 30px 25px;
+      line-height: 50px;
+    }
+
+    .position {
+      font-family: Barlow;
+      color: #FFFFFF;
+      font-size: 15px;
+      font-weight: 600;
+      text-align: left;
+      margin: 0 25px;
+      }
+
+      .birinci {
+          background-color: white;
+          color: #CE2829;
+          border-radius: 20px;
+          font-family: Barlow;
+          font-weight: 600;
+          font-size: 10px;
+          width: 100px;
+          height: 35px;
+          float: left;
+          margin: 25px;
+          cursor: pointer;
+      }
+
+
+
+    .frame-39 {
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      height: 60vh;
+     }
+
+     .frame-36 {
+      background-image: url("public\assets\iteration-2\cta\kart-2.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      border-radius: 10px;
+      flex: 1;
+    }
+
+    h2 {
+      font-family: Barlow;
+      font-weight: 600;
+      color: #FFFFFF;
+      font-size: 32px;
+      text-align: left;
+      margin: 30px 20px;
+      line-height: 40px;
+    }
+
+    .ikinci {
+      background-color: white;
+      color: #CE2829;
+      border-radius: 20px;
+      font-family: Barlow;
+      font-weight: 600;
+      font-size: 10px;
+      width: 100px;
+      height: 35px;
+      float: left;
+      margin: 10px 25px;
+      cursor: pointer;
+    }
+
+
+
+    .frame-35 {
+      background-image: url("public\assets\iteration-2\cta\kart-3.png");
+      background-size: cover;
+      background-position: left;
+      background-repeat: no-repeat;
+      border-radius: 10px;
+      flex: 1;
+    }
+
+    h4 {
+      color: #292929;
+      font-family: Barlow;
+      font-weight: 600;
+      font-size: 30px;
+      text-align: left;
+      margin: 25px 25px;
+      line-height: 45px;
+
+    }
+
+    .kirmizi-renk {
+      color: red;
+      font-family: Barlow;
+    }
+
+    .ucuncu {
+      background-color: white;
+      color: #CE2829;
+      border-radius: 20px;
+      font-family: Barlow;
+      font-weight: 600;
+      font-size: 10px;
+      width: 100px;
+      height: 35px;
+      float: left;
+      margin: 5px 25px;
+      cursor: pointer;
+    }
+
 
 
 
 
 
 body, html {
-  margin: 0;
-  padding: 0;
-  width: 100%;
   height: 100%;  
+  width: 82%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
