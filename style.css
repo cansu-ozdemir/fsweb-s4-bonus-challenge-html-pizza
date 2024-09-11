@@ -30,7 +30,9 @@ background-color: tomato;
 color: white;
 width: 100%;
 height: 100vh;
-margin: 0 auto;
+margin: 0;
+padding: 0;
+
 }
 
 h1 {
@@ -294,9 +296,10 @@ h1 {
     }
 
 
-body {
-  height: 100vh;  
-  width: 82%;
+body, html {
+    
+  width: 100%;
+  overflow-x: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -305,6 +308,8 @@ body {
 .container {
   width: 100vw;
   height: 100vh;
+  margin: 0 auto;
+  padding: 0;
 }
 
 #app {
@@ -371,16 +376,14 @@ h5 {
 
 
 
-
-@media (prefers-color-scheme: light) {
+@media (max-width: 768px) {
   :root {
     color: #213547;
     background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+
+}
+
+
+
+
 }
